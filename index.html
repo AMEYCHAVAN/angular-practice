@@ -3,10 +3,13 @@
 
 <head <title>Hello World, AngularJS - .net</title>
   <script type="text/javascript" src="bower_components/angular/angular.js"></script>
+  <script type="text/javascript" src="bower_components/angular-ui-router/release/angular-ui-router.js"></script>
 
-  <script type="text/javascript" src="controller/init.js"></script>
+  <script type="text/javascript" src="services/routerApp.js"></script>
 
   <script type="text/javascript" src="controller/mainpage.js"></script>
+  <script type="text/javascript" src="controller/array.js"></script>
+
   <script type="text/javascript" src="controller/login.js"></script>
 
 </head>
@@ -22,23 +25,11 @@
 
   </div>
 
-  <div ng-controller="myController2">
-
- 
-    <input type="text" ng-model="custom1" /> {{custom1}}
 
 
-    <p>Looping with ng-repeat:</p>
-
-    <ul>
-      <li data-ng-repeat="x in names|filter:custom1">
-        {{ x|uppercase }}
-      </li>
-    </ul>
-
-
+  <div class="container">
+      <div ui-view></div>
   </div>
-
 
 
 </body>
