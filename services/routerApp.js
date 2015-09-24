@@ -26,6 +26,13 @@ routerApp.config(function($stateProvider, $urlRouterProvider) {
             //     $scope.dogs = ['Bernese', 'Husky', 'Goldendoodle'];
             // }
         })
+        .state('lo', {
+           url: '/login',
+           templateUrl: 'views/login.html',
+           // controller: function($scope) {
+           //     $scope.dogs = ['Bernese', 'Husky', 'Goldendoodle'];
+           // }
+       })
 
 
       });
