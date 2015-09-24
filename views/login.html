@@ -1,14 +1,16 @@
-<div   ng-controller="loginController" >
-{{total()}}
-name
-<br>
+<div ng-controller="loginController">
+    {{total()}} name
+    <br>
 
-  <input type="text" ng-model="un" /> {{un}}
+    <input type="text" ng-model="un" /> {{un}}
 
-<br>
-pass
-  <input type="text" ng-model="up" /> {{up}}
-  <input type="button" ng-click="add(un,up)" value="ADD"><br/>
-   Sum : {{result}}
-   <div>
+    <br> pass
+    <input type="text" ng-model="up" /> {{up}}
+    <input type="button" ng-click="add(un,up)" value="ADD">
+    <br/>
+
+    <hr>
+    <hr> {{result}}
+    <hr>
+    <hr>
 </div>

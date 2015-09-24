@@ -1,16 +1,20 @@
 <!DOCTYPE html>
 <html>
 
-<head <title>Hello World, AngularJS - .net</title>
-  <script type="text/javascript" src="bower_components/angular/angular.js"></script>
-  <script type="text/javascript" src="bower_components/angular-ui-router/release/angular-ui-router.js"></script>
+<head <title>B2X World, AngularJS </title>
+    <script type="text/javascript" src="bower_components/angular/angular.js"></script>
+    <script type="text/javascript" src="bower_components/angular-ui-router/release/angular-ui-router.js"></script>
 
-  <script type="text/javascript" src="services/routerApp.js"></script>
+    <script type="text/javascript" src="services/routerApp.js"></script>
+    <script type="text/javascript" src="services/dataservice.js"></script>
 
-  <script type="text/javascript" src="controller/mainpage.js"></script>
-  <script type="text/javascript" src="controller/array.js"></script>
 
-  <script type="text/javascript" src="controller/login.js"></script>
+
+
+
+    <script type="text/javascript" src="controller/mainpage.js"></script>
+    <script type="text/javascript" src="controller/array.js"></script>
+    <script type="text/javascript" src="controller/login.js"></script>
 
 </head>
 
@@ -18,18 +22,22 @@
 <body ng-app="myapp">
 
 
-
+    <!--
+just for DEMO
   <div ng-controller="myController1">
-
     {{data.theVar}}
+  </div> -->
 
-  </div>
+    <br>main view start
+    <br>
+
+    <div class="container">
+        <div ui-view></div>
+    </div>
 
 
-
-  <div class="container">
-      <div ui-view></div>
-  </div>
+    <br>main view end
+    <br>
 
 
 </body>
