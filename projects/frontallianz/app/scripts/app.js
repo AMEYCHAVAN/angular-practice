@@ -2,14 +2,14 @@
 
 /**
  * @ngdoc overview
- * @name yeotutApp
+ * @name frontallianz
  * @description
- * # yeotutApp
+ * # frontallianz
  *
  * Main module of the application.
  */
 angular
-  .module('yeotutApp', [
+  .module('frontallianz', [
     'ngAnimate',
     'ngAria',
     'ngCookies',

@@ -16,7 +16,7 @@
     "angular-mocks": "^1.3.0"
   },
   "appPath": "app",
-  "moduleName": "yeotutApp",
+  "moduleName": "frontallianz",
   "overrides": {
     "bootstrap": {
       "main": [

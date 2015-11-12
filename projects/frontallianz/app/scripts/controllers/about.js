@@ -2,12 +2,12 @@
 
 /**
  * @ngdoc function
- * @name yeotutApp.controller:AboutCtrl
+ * @name frontallianz.controller:AboutCtrl
  * @description
  * # AboutCtrl
- * Controller of the yeotutApp
+ * Controller of the frontallianz
  */
-angular.module('yeotutApp')
+angular.module('frontallianz')
   .controller('AboutCtrl', function () {
     this.awesomeThings = [
       'HTML5 Boilerplate',
